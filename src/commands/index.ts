@@ -12,6 +12,8 @@ import * as hamster from "./hamster";
 //Import the "ten_queens" command
 import * as ten_queens from "./ten_queens";
 
+import * as calc from "./calc";
+
 /**
  * Object containing all available commands.
  * Each property corresponds to a command module.
@@ -20,4 +22,5 @@ export const commands = {
     ping,
     hamster,
     ten_queens,
+    calc,
 };
